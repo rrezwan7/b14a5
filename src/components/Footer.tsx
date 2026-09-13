@@ -5,12 +5,12 @@ const Footer = () => {
         <footer className="bg-white border-t mt-16 py-8 text-xs text-slate-500">
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6">
 
-                {/* Brand Block */}
+
                 <div>
                     <div className="flex items-center">
                         <img
                             src={logo}
-                            alt="Dev Stack"
+                            alt=""
                             className="h-8"
                         />
                     </div>
@@ -36,7 +36,6 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Product Group */}
                 <div>
                     <p className="font-bold text-slate-800 mb-2">
                         PRODUCT
@@ -74,7 +73,6 @@ const Footer = () => {
                     </p>
                 </div>
 
-                {/* Legal Group */}
                 <div>
                     <p className="font-bold text-slate-800 mb-2">
                         LEGAL
