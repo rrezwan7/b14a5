@@ -3,7 +3,7 @@ import type { Technology } from './types/technology';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechnologyList from './components/TechnologyList';
-
+import StackSidebar from './components/StackSidebar';
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
   const [loading, setLoading] = useState(true);
@@ -36,6 +36,7 @@ function App() {
         ) : (
           <TechnologyList technologies={technologies} />
         )}
+        <StackSidebar />
       </section>
     </>
   );
