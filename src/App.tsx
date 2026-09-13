@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechnologyList from './components/TechnologyList';
 import StackSidebar from './components/StackSidebar';
+import Footer from './components/Footer';
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
   const [loading, setLoading] = useState(true);
@@ -38,6 +39,7 @@ function App() {
         )}
         <StackSidebar />
       </section>
+      <Footer />
     </>
   );
 }
